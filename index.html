@@ -3,15 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>ecommerce app</title>
   </head>
   <body>
-    <h1>E-commerce website</h1>
+    <div class="cart-view-">
+      <button class="cart-btn minus">View Cart</button>
+      <div class="cart hidden">
+        <div class="cart-item">Cart is empty</div>
 
-    <button class="add">+</button>
-    <button class="minus">-</button>
-    <button class="total">Total cart</button>
-    <button class="clear">clear cart</button>
+        <span class="cout"></span>
+      </div>
+    </div>
+
+    <section class="container">
+      <!-- <div class="items">
+      <img src='${item.itemImage}' alt="" />
+      <div class="item">
+        <h1 class="name">
+        
+        ${item.itemName}
+        
+        <span class="price"> $${item.itemPrice} </span>
+        </h1>
+        <p class="desc">
+        ${item.description}
+        </p>
+        <button class="add_to-cart">Add to cart</button>
+        <button class="value_add">+</button>
+        <span class="quantity">0</span>
+        <button class="minus">-</button>
+      </div>
+    </div> -->
+    </section>
+
+    <!-- <form class="form">
+      <div class="item">
+        <input
+          type="text "
+          class="input item-name"
+          placeholder="what do you want"
+        />
+      </div>
+      <div class="item">
+        <button class="minus">-</button>
+        <input type="number" class="input item-quantity" />
+        <button class="add">+</button>
+      </div>
+      <div class="item">
+        <button class="clear">clear cart</button>
+
+        <button class="add add_to">Add to cart</button>
+      </div>
+
+      <button class="total_cart total">Total</button>
+    </form> -->
     <script src="script.js"></script>
   </body>
 </html>
